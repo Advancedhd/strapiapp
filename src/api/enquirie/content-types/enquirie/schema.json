@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enquiries",
+  "info": {
+    "singularName": "enquirie",
+    "pluralName": "enquiries",
+    "displayName": "Enquirie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "accommodation": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}
